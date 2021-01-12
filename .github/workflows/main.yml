@@ -2,7 +2,7 @@ name: A workflow for my Hello World file
 on: push
 jobs:
   build:
-    name: Building on ubuntu latest
+    name: Build project on ubuntu latest
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
